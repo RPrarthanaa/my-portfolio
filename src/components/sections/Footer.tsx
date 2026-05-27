@@ -91,7 +91,7 @@ export default function Footer() {
             <div style={{ display: 'flex', gap: 12 }}>
               {[
                 { Icon: Github, href: 'https://github.com/RPrarthanaa', label: 'GitHub' },
-                { Icon: Linkedin, href: 'https://www.linkedin.com/in/prarthanaa-ragulan-76611b2ba', label: 'LinkedIn' },
+                { Icon: Linkedin, href: 'https://www.linkedin.com/in/prarthanaa-ragulan', label: 'LinkedIn' },
                 { Icon: Mail, href: 'mailto:prarthanaa07@gmail.com', label: 'Email' },
               ].map(({ Icon, href, label }) => (
                 <a

@@ -41,12 +41,15 @@ export default function ContactSection() {
             <span style={{ color: 'var(--p-amber)' }}>great.</span>
           </h2>
         </ScrollReveal>
+
+        {/*}
         <ScrollReveal delay={2}>
           <p style={{ color: 'var(--p-text-muted)', maxWidth: 480, lineHeight: 1.7, marginBottom: 56, fontSize: '0.97rem' }}>
             Whether it's a new project, a consulting engagement, or just a question about
             distributed systems at 2am — my inbox is open.
           </p>
         </ScrollReveal>
+        */}
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 56 }}>
           {/* Form */}
@@ -71,7 +74,7 @@ export default function ContactSection() {
                   Message sent.
                 </h3>
                 <p style={{ color: 'var(--p-text-muted)', fontSize: '0.9rem' }}>
-                  I'll get back to you within 1–2 business days.
+                  I'll get back to you within 4-5 business days.
                 </p>
                 <button
                   onClick={() => setSubmitted(false)}
@@ -148,11 +151,11 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div style={{ fontSize: '0.72rem', color: 'var(--p-text-muted)', fontFamily: 'JetBrains Mono, monospace', letterSpacing: '0.08em', marginBottom: 4 }}>EMAIL</div>
-                  <a href="mailto:zara@zaradev.io" style={{ color: 'var(--p-text)', textDecoration: 'none', fontSize: '0.9rem', transition: 'color 0.2s' }}
+                  <a href="mailto:prarthanaa07@gmail.com" style={{ color: 'var(--p-text)', textDecoration: 'none', fontSize: '0.9rem', transition: 'color 0.2s' }}
                     onMouseEnter={(e) => e.currentTarget.style.color = 'var(--p-amber)'}
                     onMouseLeave={(e) => e.currentTarget.style.color = 'var(--p-text)'}
                   >
-                    zara@zaradev.io
+                    prarthanaa07@gmail.com
                   </a>
                 </div>
               </div>
@@ -179,12 +182,12 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div style={{ fontSize: '0.72rem', color: 'var(--p-text-muted)', fontFamily: 'JetBrains Mono, monospace', letterSpacing: '0.08em', marginBottom: 4 }}>GITHUB</div>
-                  <a href="https://github.com/zara-okafor" target="_blank" rel="noopener noreferrer"
+                  <a href="https://github.com/RPrarthanaa" target="_blank" rel="noopener noreferrer"
                     style={{ color: 'var(--p-text)', textDecoration: 'none', fontSize: '0.9rem', transition: 'color 0.2s' }}
                     onMouseEnter={(e) => e.currentTarget.style.color = 'var(--p-cyan)'}
                     onMouseLeave={(e) => e.currentTarget.style.color = 'var(--p-text)'}
                   >
-                    github.com/zara-okafor
+                    github.com/RPrarthanaa
                   </a>
                 </div>
               </div>
@@ -211,12 +214,12 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div style={{ fontSize: '0.72rem', color: 'var(--p-text-muted)', fontFamily: 'JetBrains Mono, monospace', letterSpacing: '0.08em', marginBottom: 4 }}>LINKEDIN</div>
-                  <a href="https://linkedin.com/in/zara-okafor" target="_blank" rel="noopener noreferrer"
+                  <a href="https://linkedin.com/in/prarthanaa-ragulan" target="_blank" rel="noopener noreferrer"
                     style={{ color: 'var(--p-text)', textDecoration: 'none', fontSize: '0.9rem', transition: 'color 0.2s' }}
                     onMouseEnter={(e) => e.currentTarget.style.color = 'cornflowerblue'}
                     onMouseLeave={(e) => e.currentTarget.style.color = 'var(--p-text)'}
                   >
-                    linkedin.com/in/zara-okafor
+                    linkedin.com/in/prarthanaa-ragulan
                   </a>
                 </div>
               </div>
@@ -242,7 +245,7 @@ export default function ContactSection() {
                   </span>
                 </div>
                 <p style={{ fontSize: '0.8rem', color: 'var(--p-text-muted)', marginTop: 8, lineHeight: 1.6 }}>
-                  Currently exploring senior IC and lead engineering roles. Remote-friendly.
+                  Currently exploring software engineering roles. Remote-friendly.
                 </p>
               </div>
             </ScrollReveal>

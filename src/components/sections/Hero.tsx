@@ -48,14 +48,16 @@ export default function Hero() {
       }}
     >
       {/* Top tag */}
+      {/*
       <div
         className="section-label"
         style={{
           animation: 'reveal-up 0.7s ease 0.1s both',
         }}
       >
-        {/* Available for new opportunities */}
+        Available for new opportunities
       </div>
+      */}
 
       {/* Name */}
       <h1
@@ -162,7 +164,7 @@ export default function Hero() {
       >
         {[
           { Icon: Github, href: 'https://github.com/RPrarthanaa', label: 'GitHub' },
-          { Icon: Linkedin, href: 'https://www.linkedin.com/in/prarthanaa-ragulan-76611b2ba', label: 'LinkedIn' },
+          { Icon: Linkedin, href: 'https://www.linkedin.com/in/prarthanaa-ragulan', label: 'LinkedIn' },
           { Icon: Mail, href: 'mailto:prarthanaa07@gmail.com', label: 'Email' },
         ].map(({ Icon, href, label }) => (
           <a
