@@ -1,22 +1,20 @@
 
 export default [
   {
-    "jobTitle": "Senior Frontend Engineer",
-    "summary": "Led frontend architecture for a high-scale fintech platform serving 2.3M users. Drove the migration from a legacy Angular codebase to a modern React + TypeScript stack, reducing bundle size by 47% and cutting initial load time from 4.1s to 1.4s.",
-    "startDate": "2022-03",
-    "company": "Velocity Systems",
-    "location": "San Francisco, CA (Remote)",
+    "jobTitle": "Associate Technical Consultant",
+    "summary": "Explored the design and development of CRM systems with a focus on improving business workflows. Conducted website testing to identify bugs, and enhance user experience. Designed and implemented a website.",
+    "startDate": "2026-03",
+    "company": "Tureya Limited",
+    "location": "New Zealand (Remote)",
     "tags": [
-      "React",
-      "TypeScript",
-      "GraphQL",
-      "AWS",
+      "Bigin CRM",
       "Figma",
-      "Storybook",
-      "Jest",
-      "CI/CD"
+      "Duda",
+      "ClickUp",
+      "SOP",
+      "Excel"
     ],
-    "content": "Owned and rebuilt the customer-facing dashboard, introducing a component library used across 6 product teams. Collaborated closely with design and product to ship a redesigned onboarding flow that improved activation rates by 31%. Mentored 3 junior engineers through bi-weekly code reviews and architecture discussions.",
+    "content": "",
     "_meta": {
       "filePath": "initech-junior.md",
       "fileName": "initech-junior.md",
@@ -26,29 +24,24 @@ export default [
     }
   },
   {
-    "jobTitle": "Full-Stack Engineer",
-    "summary": "Built full-stack features for a B2B SaaS platform from seed to Series B. Contributed to both the React frontend and Node.js/PostgreSQL backend, shipping 60+ features across 2 years with a lean engineering team of 8.",
-    "startDate": "2020-06",
-    "endDate": "2022-02",
-    "company": "Meridian Labs",
-    "location": "Austin, TX",
+    "jobTitle": "Software Engineering Intern - Data Analytics",
+    "summary": "Worked as an intern dabbling in project management and gained hands-on experience with tools like Asana, Jira and ClickUp to manage workflows effectively. Was tasked with completing an SOP and I explored UI/UX design concepts using Figma, creating model UIs to improve design proficiency.",
+    "startDate": "2024-12",
+    "endDate": "2025-03",
+    "company": "BladeGen Tech",
+    "location": "Sri Lanka (Remote)",
     "tags": [
-      "React",
-      "Node.js",
-      "PostgreSQL",
-      "Docker",
-      "Redis",
-      "Stripe API",
-      "Tailwind CSS",
-      "Playwright"
+      "Figma",
+      "ClickUp",
+      "Asana"
     ],
-    "content": "Designed and implemented a real-time notification system using WebSockets, supporting 40k+ concurrent connections. Built the billing and subscription management system integrated with Stripe, handling $1.2M in monthly recurring revenue. Reduced API response time by 62% through query optimization and strategic Redis caching.",
+    "content": "",
     "_meta": {
-      "filePath": "job-2.md",
-      "fileName": "job-2.md",
+      "filePath": "intern-1.md",
+      "fileName": "intern-1.md",
       "directory": ".",
       "extension": "md",
-      "path": "job-2"
+      "path": "intern-1"
     }
   }
 ]
