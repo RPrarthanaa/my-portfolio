@@ -1,16 +1,17 @@
 ---
-school: University of Texas at Austin
-summary: B.S. Computer Science — Concentration in Software Engineering
-startDate: 2016-09
-endDate: 2020-05
+school: Curtin University
+summary: Bachelor of Computing — Software Engineering
+startDate: 2023-02
+endDate: 2025-11
 tags:
   [
     "Data Structures",
-    "Algorithms",
+    "Mobile Application Development",
     "Distributed Systems",
     "Human-Computer Interaction",
     "Database Systems",
+    "Capstone"
   ]
 ---
 
-Graduated with honors (3.7 GPA). Senior thesis on adaptive UI rendering for low-bandwidth environments. Teaching assistant for Introduction to Web Development (2 semesters). Led the university's open source club with 120+ members.
+Graduated with distinction as the valedictorian. Capstone project involving an AI model to analyse unit outlines for stress indicators. Founding member of the university's Social Impact Club as the secretary.
