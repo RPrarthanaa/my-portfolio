@@ -141,7 +141,7 @@ export default function Footer() {
           }}
         >
           <p style={{ fontSize: '0.78rem', color: 'var(--p-text-muted)', fontFamily: 'JetBrains Mono, monospace' }}>
-            © {new Date().getFullYear()} Zara Okafor. Built with React + TanStack Start.
+            © {new Date().getFullYear()} Prarthanaa Ragulan. Built with React + TanStack Start.
           </p>
           <button
             onClick={scrollToTop}
