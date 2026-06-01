@@ -16,11 +16,11 @@ export default [
     ],
     "content": "",
     "_meta": {
-      "filePath": "initech-junior.md",
-      "fileName": "initech-junior.md",
+      "filePath": "current.md",
+      "fileName": "current.md",
       "directory": ".",
       "extension": "md",
-      "path": "initech-junior"
+      "path": "current"
     }
   },
   {
