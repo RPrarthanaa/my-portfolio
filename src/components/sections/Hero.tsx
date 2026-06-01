@@ -3,9 +3,9 @@ import { ArrowDown, Github, Linkedin, Mail, ExternalLink } from 'lucide-react'
 
 const roles = [
   'Full-Stack Engineer',
-  'Frontend Architect',
-  'Open Source Contributor',
-  'Systems Thinker',
+  'Frontend Developer',
+  'Backend Developer',
+  'Website Tester',
 ]
 
 export default function Hero() {
@@ -48,6 +48,7 @@ export default function Hero() {
       }}
     >
       {/* Top tag */}
+      {/*
       <div
         className="section-label"
         style={{
@@ -56,6 +57,7 @@ export default function Hero() {
       >
         Available for new opportunities
       </div>
+      */}
 
       {/* Name */}
       <h1
@@ -70,8 +72,8 @@ export default function Hero() {
           animation: 'reveal-up 0.8s ease 0.2s both',
         }}
       >
-        Zara<br />
-        <span className="gradient-text">Okafor.</span>
+        Prarthanaa<br />
+        <span className="gradient-text">Ragulan.</span>
       </h1>
 
       {/* Typewriter role */}
@@ -113,9 +115,9 @@ export default function Hero() {
           animation: 'reveal-up 0.8s ease 0.45s both',
         }}
       >
-        I build high-performance web systems and elegant developer experiences.
-        6 years shipping products that scale — from seed-stage startups to
-        platforms serving millions.
+        I am a Software Engineering undergraduate, passionate about building software solutions.
+        I have experience in full-stack development and am strongly interested in every aspect of software engineering, from design to deployment. 
+        I am currently seeking new opportunities to apply my skills and grow as an engineer.
       </p>
 
       {/* CTAs */}
@@ -161,9 +163,9 @@ export default function Hero() {
         }}
       >
         {[
-          { Icon: Github, href: 'https://github.com/zara-okafor', label: 'GitHub' },
-          { Icon: Linkedin, href: 'https://linkedin.com/in/zara-okafor', label: 'LinkedIn' },
-          { Icon: Mail, href: 'mailto:zara@zaradev.io', label: 'Email' },
+          { Icon: Github, href: 'https://github.com/RPrarthanaa', label: 'GitHub' },
+          { Icon: Linkedin, href: 'https://www.linkedin.com/in/prarthanaa-ragulan', label: 'LinkedIn' },
+          { Icon: Mail, href: 'mailto:prarthanaa07@gmail.com', label: 'Email' },
         ].map(({ Icon, href, label }) => (
           <a
             key={label}

@@ -1,8 +1,8 @@
 import { Github, Linkedin, Mail, ArrowUp } from 'lucide-react'
 
 const quickLinks = [
-  { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#skills' },
+  //{ label: 'About', href: '#about' },
+  //{ label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
   { label: 'Experience', href: '#experience' },
   { label: 'Contact', href: '#contact' },
@@ -28,10 +28,10 @@ export default function Footer() {
               className="font-display"
               style={{ fontSize: '1.3rem', fontWeight: 800, color: 'var(--p-amber)', marginBottom: 12 }}
             >
-              Zara Okafor.
+                Prarthanaa Ragulan.
             </div>
             <p style={{ fontSize: '0.85rem', color: 'var(--p-text-muted)', lineHeight: 1.7, maxWidth: 220 }}>
-              Full-stack engineer crafting high-performance web experiences and developer tools.
+              Passionate about crafting seamless user experiences through intuitive design and clean code. Let's build something amazing together!
             </p>
           </div>
 
@@ -90,9 +90,9 @@ export default function Footer() {
             </div>
             <div style={{ display: 'flex', gap: 12 }}>
               {[
-                { Icon: Github, href: 'https://github.com/zara-okafor', label: 'GitHub' },
-                { Icon: Linkedin, href: 'https://linkedin.com/in/zara-okafor', label: 'LinkedIn' },
-                { Icon: Mail, href: 'mailto:zara@zaradev.io', label: 'Email' },
+                { Icon: Github, href: 'https://github.com/RPrarthanaa', label: 'GitHub' },
+                { Icon: Linkedin, href: 'https://www.linkedin.com/in/prarthanaa-ragulan', label: 'LinkedIn' },
+                { Icon: Mail, href: 'mailto:prarthanaa07@gmail.com', label: 'Email' },
               ].map(({ Icon, href, label }) => (
                 <a
                   key={label}
@@ -128,6 +128,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
+        {/*
         <div
           style={{
             borderTop: '1px solid var(--p-border)',
@@ -140,7 +141,7 @@ export default function Footer() {
           }}
         >
           <p style={{ fontSize: '0.78rem', color: 'var(--p-text-muted)', fontFamily: 'JetBrains Mono, monospace' }}>
-            © {new Date().getFullYear()} Zara Okafor. Built with React + TanStack Start.
+            © {new Date().getFullYear()} Prarthanaa Ragulan. Built with React + TanStack Start.
           </p>
           <button
             onClick={scrollToTop}
@@ -170,6 +171,7 @@ export default function Footer() {
             <ArrowUp size={15} />
           </button>
         </div>
+        */}
       </div>
     </footer>
   )

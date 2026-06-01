@@ -1,4 +1,4 @@
-# Zara Okafor — Developer Portfolio
+# Prarthanaa Ragulan — Developer Portfolio
 
 A modern, production-grade personal portfolio website for a software developer. Built with TanStack Start, React 19, and Tailwind CSS 4 with a dark-first "Obsidian Codex" design aesthetic.
 

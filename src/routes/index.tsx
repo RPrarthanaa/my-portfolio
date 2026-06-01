@@ -33,8 +33,8 @@ function Portfolio() {
       <Navbar isDark={isDark} onToggleTheme={() => setIsDark((d) => !d)} />
       <main style={{ position: 'relative', zIndex: 1 }}>
         <Hero />
-        <About />
-        <Skills />
+        {/* <About /> */}
+        {/* <Skills /> */}
         <Projects />
         <Experience />
         <ContactSection />

@@ -1,3 +1,5 @@
+<!--
+
 ---
 school: AWS & Certifications
 summary: AWS Certified Solutions Architect – Associate | Google Cloud Professional Data Engineer
@@ -14,3 +16,5 @@ tags:
 ---
 
 Earned AWS Solutions Architect certification with a focus on high-availability distributed systems. Completed Google Cloud's Professional Data Engineer certification covering BigQuery, Dataflow, and ML pipeline orchestration. Both certifications active and renewed annually.
+
+-->

@@ -68,6 +68,7 @@ export default function Projects() {
             </h2>
 
             {/* Filter tabs */}
+            {/*
             <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
               {FILTERS.map((f) => (
                 <button
@@ -79,6 +80,7 @@ export default function Projects() {
                 </button>
               ))}
             </div>
+            */}
           </div>
         </ScrollReveal>
 

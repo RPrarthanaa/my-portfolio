@@ -96,7 +96,7 @@ export default function About() {
               >
                 <img
                   src="/headshot-on-white.jpg"
-                  alt="Zara Okafor"
+                  alt="Prarthanaa Ragulan"
                   style={{
                     width: '100%',
                     height: '100%',

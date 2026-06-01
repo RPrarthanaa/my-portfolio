@@ -1,20 +1,16 @@
 ---
-jobTitle: Senior Frontend Engineer
-company: Velocity Systems
-location: San Francisco, CA (Remote)
-startDate: 2022-03
-summary: Led frontend architecture for a high-scale fintech platform serving 2.3M users. Drove the migration from a legacy Angular codebase to a modern React + TypeScript stack, reducing bundle size by 47% and cutting initial load time from 4.1s to 1.4s.
+jobTitle: Associate Technical Consultant
+company: Tureya Limited
+location: New Zealand (Remote)
+startDate: 2026-03
+summary: Explored the design and development of CRM systems with a focus on improving business workflows. Conducted website testing to identify bugs, and enhance user experience. Designed and implemented a website.
 tags:
   [
-    "React",
-    "TypeScript",
-    "GraphQL",
-    "AWS",
+    "Bigin CRM",
     "Figma",
-    "Storybook",
-    "Jest",
-    "CI/CD",
+    "Duda",
+    "ClickUp",
+    "SOP",
+    "Excel"
   ]
 ---
-
-Owned and rebuilt the customer-facing dashboard, introducing a component library used across 6 product teams. Collaborated closely with design and product to ship a redesigned onboarding flow that improved activation rates by 31%. Mentored 3 junior engineers through bi-weekly code reviews and architecture discussions.

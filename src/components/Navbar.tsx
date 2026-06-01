@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import { Menu, X, Moon, Sun } from 'lucide-react'
 
 const navLinks = [
-  { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#skills' },
+  //{ label: 'About', href: '#about' },
+  //{ label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
   { label: 'Experience', href: '#experience' },
   { label: 'Contact', href: '#contact' },
@@ -81,8 +81,8 @@ export default function Navbar({ isDark, onToggleTheme }: NavbarProps) {
               justifyContent: 'center',
               fontSize: '0.8rem',
               fontWeight: 800,
-            }}>ZO</span>
-            <span style={{ color: 'var(--p-text-bright)' }}>Zara<span style={{ color: 'var(--p-amber)' }}>.</span></span>
+            }}>PR</span>
+            <span style={{ color: 'var(--p-text-bright)' }}> <span style={{ color: 'var(--p-amber)' }}>.</span></span>
           </a>
 
           {/* Desktop Nav */}
