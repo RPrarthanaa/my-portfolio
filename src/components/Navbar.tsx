@@ -81,8 +81,8 @@ export default function Navbar({ isDark, onToggleTheme }: NavbarProps) {
               justifyContent: 'center',
               fontSize: '0.8rem',
               fontWeight: 800,
-            }}>ZO</span>
-            <span style={{ color: 'var(--p-text-bright)' }}>Zara<span style={{ color: 'var(--p-amber)' }}>.</span></span>
+            }}>PR</span>
+            <span style={{ color: 'var(--p-text-bright)' }}> <span style={{ color: 'var(--p-amber)' }}>.</span></span>
           </a>
 
           {/* Desktop Nav */}
