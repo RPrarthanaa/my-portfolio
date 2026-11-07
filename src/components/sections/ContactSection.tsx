@@ -3,22 +3,6 @@ import { Send, Mail, Github, Linkedin, CheckCircle } from 'lucide-react'
 import ScrollReveal from '@/components/ScrollReveal'
 
 export default function ContactSection() {
-  const [submitted, setSubmitted] = useState(false)
-  const [submitting, setSubmitting] = useState(false)
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setSubmitting(true)
-    const form = e.currentTarget
-    const formData = new FormData(form)
-    fetch('/contact.html', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData as unknown as Record<string, string>).toString(),
-    })
-      .then(() => { setSubmitted(true); setSubmitting(false) })
-      .catch(() => { setSubmitting(false) })
-  }
 
   return (
     <section id="contact" style={{ padding: '100px 24px', position: 'relative', zIndex: 1 }}>
@@ -51,83 +35,7 @@ export default function ContactSection() {
         </ScrollReveal>
         */}
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 56 }}>
-          {/* Form */}
-          <ScrollReveal>
-            {submitted ? (
-              <div
-                className="glass-card"
-                style={{
-                  borderRadius: 12,
-                  padding: '48px 32px',
-                  textAlign: 'center',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  gap: 16,
-                }}
-              >
-                <div style={{ color: '#34d399', marginBottom: 8 }}>
-                  <CheckCircle size={40} />
-                </div>
-                <h3 className="font-display" style={{ fontSize: '1.4rem', fontWeight: 700, color: 'var(--p-text-bright)' }}>
-                  Message sent.
-                </h3>
-                <p style={{ color: 'var(--p-text-muted)', fontSize: '0.9rem' }}>
-                  I'll get back to you within 4-5 business days.
-                </p>
-                <button
-                  onClick={() => setSubmitted(false)}
-                  className="btn-outline"
-                  style={{ marginTop: 8 }}
-                >
-                  Send another
-                </button>
-              </div>
-            ) : (
-              <form
-                name="contact"
-                method="POST"
-                data-netlify="true"
-                netlify-honeypot="bot-field"
-                onSubmit={handleSubmit}
-              >
-                <input type="hidden" name="form-name" value="contact" />
-                <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
-
-                <div className="form-field">
-                  <label htmlFor="name">Name</label>
-                  <input type="text" id="name" name="name" required placeholder="Your name" />
-                </div>
-
-                <div className="form-field">
-                  <label htmlFor="email">Email</label>
-                  <input type="email" id="email" name="email" required placeholder="you@example.com" />
-                </div>
-
-                <div className="form-field">
-                  <label htmlFor="subject">Subject</label>
-                  <input type="text" id="subject" name="subject" placeholder="What's this about?" />
-                </div>
-
-                <div className="form-field">
-                  <label htmlFor="message">Message</label>
-                  <textarea id="message" name="message" required rows={5} placeholder="Tell me about your project..." />
-                </div>
-
-                <button
-                  type="submit"
-                  className="btn-primary"
-                  disabled={submitting}
-                  style={{ opacity: submitting ? 0.7 : 1, width: '100%', justifyContent: 'center' }}
-                >
-                  <Send size={14} />
-                  {submitting ? 'Sending...' : 'Send Message'}
-                </button>
-              </form>
-            )}
-          </ScrollReveal>
-
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(300px, 1fr))', gap: 56 }}> 
           {/* Contact info */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
             <ScrollReveal delay={1}>
